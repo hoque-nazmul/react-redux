@@ -2,12 +2,12 @@ import React from 'react';
 import './Product.css'
 
 const Product = (props) => {
-    const {name} = props.products;
+    const {products, addtoCart} = props;
     return (
         <div>
             <div className="productWrapper">
-                <h4>{name}</h4>
-                <button>Add To Cart</button>
+                <h4>{products.name}</h4>
+                <button onClick={() => addtoCart(products.id, products.name)}>Add To Cart</button>
             </div>
         </div>
     );
