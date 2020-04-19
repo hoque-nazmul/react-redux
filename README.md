@@ -1,4 +1,4 @@
-# Implementing Redux on React.js.
+# Implementing Redux on React App.
 
 ### Installation Process
 In order to install, the following steps must be taken:
